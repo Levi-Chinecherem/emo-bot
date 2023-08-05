@@ -1,6 +1,6 @@
 # EmoBot - Your Friendly AI Chatbot
 
-![EmoBot Logo](link-to-your-logo.png)
+![EmoBot Logo](https://github.com/Levi-Chinecherem/emo-bot/blob/master/sample.PNG)
 
 EmoBot is a user-friendly AI chatbot built to assist you with various tasks and provide helpful information. Whether you need help with research questions, image requests, translations, or managing your Facebook page, EmoBot has got you covered!
 
