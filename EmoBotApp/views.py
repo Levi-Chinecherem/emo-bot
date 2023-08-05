@@ -76,7 +76,8 @@ def home(request):
 
     return render(request, 'home.html', {'system_info': system_info})
 
-
+def documentation(request):
+    return render(request, 'documentation.html')
 
 @csrf_exempt
 def facebook_webhook(request):

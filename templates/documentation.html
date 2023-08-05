@@ -1,0 +1,73 @@
+<!-- documentation.html -->
+{% extends 'base.html' %}
+{% block title %}EmoBot - Documentation{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">EmoBot Documentation</h1>
+
+    <h2>Introduction</h2>
+    <p>
+        EmoBot is a user-friendly AI chatbot package for Python, integrating OpenAI's GPT and DALL-E models.
+        It is designed to assist users with various tasks, making it an ideal addition to any project that requires intelligent responses and automated capabilities.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>General research question handling</li>
+        <li>Image handling with DALL-E text-to-image generation</li>
+        <li>Language translation with GPT-based translation</li>
+        <li>Image prompt generation for DALL-E image generation</li>
+        <li>Automated post scheduling for your Facebook page</li>
+        <li>Comment replies and reaction management on Facebook</li>
+        <li>User interaction analysis to determine popular topics</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <p>To install EmoBot, simply use pip:</p>
+    <pre><code>pip install emobot</code></pre>
+
+    <h2>Usage</h2>
+    <ol>
+        <li>Import the EmoBot package into your Python project:</li>
+        <pre><code>import emobot</code></pre>
+
+        <li>Initialize the EmoBot instance with your OpenAI API key:</li>
+        <pre><code>bot = emobot.EmoBot(api_key='YOUR_OPENAI_API_KEY')</code></pre>
+
+        <li>Use the bot to handle user requests:</li>
+        <pre><code>response = bot.process_message('gp: What is the capital of France?')</code></pre>
+    </ol>
+
+    <h2>System Capabilities</h2>
+    <p>EmoBot is capable of handling a wide range of tasks, including:</p>
+    <ul>
+        <li>Answering general research questions</li>
+        <li>Generating images based on user descriptions</li>
+        <li>Translating text to different languages</li>
+        <li>Providing image prompts for DALL-E image generation</li>
+        <li>Automating posts and managing comments on your Facebook page</li>
+    </ul>
+
+    <h2>Benefits</h2>
+    <ul>
+        <li>Save time by automating repetitive tasks on your Facebook page</li>
+        <li>Improve engagement with automated post scheduling and comment replies</li>
+        <li>Access intelligent AI capabilities for research and language translation</li>
+        <li>Enhance creativity with DALL-E text-to-image generation</li>
+    </ul>
+
+    <h2>Contributing</h2>
+    <p>
+        EmoBot is an open-source project, and contributions are welcome!
+        If you want to contribute to the development of EmoBot, please follow the guidelines in <a href="https://github.com/Levi-Chinecherem/emo-bot">CONTRIBUTING.md</a>.
+    </p>
+
+    <h2>License</h2>
+    <p class="">
+        This project is licensed under the MIT License.
+        See the <a href="https://opensource.org/license/mit/">LICENSE</a> file for details.
+    </p>
+</div>
+<br><br><br><br><br>
+{% endblock %}
